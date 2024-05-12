@@ -1,0 +1,84 @@
+@media screen and (max-width: 375px) {
+    body {
+        background-color: hsl(47, 88%, 63%);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-color:  hsl(47, 88%, 63%);
+    }
+}
+
+body,html{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color:  hsl(47, 88%, 63%);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Figtree", sans-serif;
+}
+svg{
+    width: 310px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container{
+    height: 430px;
+    width: 310px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    align-items: center;
+    box-shadow: 5px 5px 1px 1px black;
+    
+}
+
+.learning{
+    height: 26px;
+    background-color: hsl(47, 88%, 63%);
+    width: 78px;
+    align-content: center;
+    text-align: center;
+    border-radius: 6px;
+    margin: 12px 0;
+    font-weight: bold;
+    font-size: small;
+}
+
+.date{
+    margin: 10px 0;
+}
+
+.topic{
+    font-weight: 800;
+    margin: 10px 0;
+    font-size: 22px;
+    transition: color;
+}
+.description{
+    margin: 20px 0;
+}
+
+img{
+    height: 30px;
+}
+
+.ending{
+    display: flex;
+    gap: 10px;
+}
+.name{
+    font-weight: 900;
+    align-self: center;
+}
+
+.topic:hover{
+    color: hsl(47, 88%, 63%);
+}
